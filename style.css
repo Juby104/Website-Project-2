@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: #151D3B;
+    font-size: 5.625rem;
+    margin-top: 50px; auto 0 auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    color: #151D3B;
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3 {
+    color: #151D3B;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.top-container {
+    background-color: #D82148;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    background-color: #6EBF8B;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-container {
+    background-color: #DADBBD;
+    padding: 50px 0 20px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+.btn {
+    background: #D82148;
+    background-image: -webkit-linear-gradient(top, #D82148, #D82148);
+    background-image: -moz-linear-gradient(top, #D82148, #D82148);
+    background-image: -ms-linear-gradient(top, #D82148, #D82148);
+    background-image: -o-linear-gradient(top, #D82148, #D82148);
+    background-image: linear-gradient(to bottom, #D82148, #D82148);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #6EBF8B;
+    background-image: -webkit-linear-gradient(top, #6EBF8B, #151D3B);
+    background-image: -moz-linear-gradient(top, #6EBF8B, #151D3B);
+    background-image: -ms-linear-gradient(top, #6EBF8B, #151D3B);
+    background-image: -o-linear-gradient(top, #6EBF8B, #151D3B);
+    background-image: linear-gradient(to bottom, #6EBF8B, #151D3B);
+    text-decoration: none;
